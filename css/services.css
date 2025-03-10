@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&family=Salsa&display=swap');
+
+
+
+/* Navbar  */
+
+.na_bg {background-color: #026a20e1 !important; max-height: 100px; }
+.active  {border-bottom: 1px solid white;}
+
+
+
+/* Navbar End */
+ 
+
+/* banner  */
+
+
+.b_Agri 
+    {font-family: "Salsa", serif;
+    font-weight: 400;
+    font-style: normal;}
+
+
+.ban_text { padding-bottom: 150px;}
+.carousel-inner {height: 100vh;}
+.ban_img {height: 100vh; object-fit: cover;}
+.b_Agri {font-size: 76px; margin-bottom: 120px; }
+
+
+/* banner  End*/
+
+
+
+
+
+
+
+
+
+
+/* Our services  */
+
+        .w_w_o{ color: #197733; margin: 20px; font-family: "Salsa", serif;font-weight: 400;font-style: normal;}
+         a { text-decoration: none; color: #222; }
+		.img_content_box{ box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08); position: relative; margin-bottom: 50px; }
+		.img_content_box .image_wrapper img{ width: 100%; }
+		.img_content_box .icon_content{ position: absolute; bottom: -30px; width: 80%; background-color: #fff; left: 50%; transform: translateX(-50%); box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08); }
+		.img_content_box .icon_content .content h4{ padding: 20px 0px 20px 0px; }
+		.img_content_box .icon_content .icon{ position: absolute; top: -30px; left: 50%; transform: translateX(-50%); }
+		.services > .container{ position: relative; }
+		.services > .container:before{ position: absolute; content:''; left: 0; top: 0; }
+        .lft-img {height: 130vh;}
+       
+
+
+/* Our services Ends */
+
+
+
+
+/* What They Are Talking About  */
+
+.testimonial {
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid white;
+    color: #fff;
+}
+.testimonial img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    
+}
+.testimonial h5 {
+    margin-top: 10px;
+}
+.bg {
+    background-image: url(../images/wtata/45625.png); background-size: cover; background-position: center;
+}
+.overlay {
+    
+     background: rgba(0, 0, 0, 0.5); 
+    
+}
+.s_t {
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: "Salsa", serif;font-weight: 400;font-style: normal;
+}
+
+.btnnnnn {
+    background-color: none;
+    border: 1px solid white;
+    height: 43px;
+    width: 150px ;
+    color: #FBFDFE;
+}
+.btnnnnn:hover {background: #ffffff;}
+
+
+/* What They Are Talking About Ends */
+
+
+/* Get in Touch  */
+
+.gTouch_Form{ max-width: 792px; max-height: 680px; position: absolute; left: 470px; top: 415%;  };
+.leftText { position: relative;}
+.leftText h3 {font-family: "Salsa", serif; font-weight: 400; font-style: normal;}
+.rightText {font-family: "Salsa", serif; font-weight: 400; font-style: normal;}
+.gTouch_Btn { width: 370px; height: 50px; background-color: #43A741;}
+
+/* Get in Touch Ends */
+
+
+/* Footer  */
+
+.footer-section {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 0;
+}
+.footer-section h5 {
+    color: #f8b400;
+    margin-bottom: 20px;
+    font-family: "Salsa", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 37px;
+}
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer-section a:hover {
+    color: #f8b400;
+}
+.social-icons a {
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.ql_2 {
+   list-style:  none;
+   
+}
+
+/* Footer Ends */

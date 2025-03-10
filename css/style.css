@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&family=Salsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+
+
+/* Navbar  */
+
+.na_bg {background-color: #026a20e1 !important; max-height: 100px; }
+.btn_Nav {font-family: "Salsa", serif;font-weight: 400;font-style: normal; }
+.btn {   font-family: "Salsa", serif;font-weight: 400;font-style: normal;}
+.active  {border-bottom: 1px solid white;}
+
+@media (max-width:1024px) {
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background:#026a20e1;
+        gap: 0;
+        overflow: hidden;
+    }
+    nav ul li{
+        padding: 20px;
+        padding-top: 0;
+    }
+    .menu-icon{
+        display: block;
+    }
+    #menuList{
+        transition: all 0.5s;
+    }
+
+    .btn_Nav {display: none;}
+}
+@media (max-width:768px) {
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background:#026a20e1;
+        gap: 0;
+        overflow: hidden;
+    }
+    nav ul li{
+        padding: 20px;
+        padding-top: 0;
+    }
+    .menu-icon{
+        display: block;
+    }
+    #menuList{
+        transition: all 0.5s;
+    }
+    .btn_Nav {display: none;}
+
+    .na_logo {left: 50;}
+    
+}
+@media (max-width:480px) {
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background:#026a20e1;
+        gap: 0;
+        overflow: hidden;
+    }
+    nav ul li{
+        padding: 20px;
+        padding-top: 0;
+    }
+    .menu-icon{
+        display: block;
+    }
+    #menuList{
+        transition: all 0.5s;
+    }
+
+    .btn_Nav {display: none;}
+
+    .na_logo {left: 50;}
+}
+@media (max-width:326px) {
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background:#026a20e1;
+        gap: 0;
+        overflow: hidden;
+    }
+    nav ul li{
+        padding: 20px;
+        padding-top: 0;
+    }
+    .menu-icon{
+        display: block;
+    }
+    #menuList{
+        transition: all 0.5s;
+    }
+    .btn_Nav {display: none;}
+    .na_logo {left: 50;}
+}
+/* Navbar End */
+ 
+
+/* banner  */
+
+
+.ban_text { padding-bottom: 10px;}
+.carousel-inner {height: 100vh;}
+.ban_img {height: 100vh; object-fit: cover;}
+.ban_Btn { font-family: "Salsa", serif; font-weight: 600; font-style: normal; width: 168px; height: 52px; background-color: #1ED050; color: #FBFDFE; }
+.ban_Btn:hover {background-color: #1ED050; }
+.b_Agri {font-size: 76px; }
+.b_well {font-size: 22px;}
+.BanFont {font-family: "Salsa", serif; font-weight: 400; font-style: normal;}
+.b_lor { font-family: "Roboto", sans-serif; font-optical-sizing: auto; font-weight: 200; font-style: normal; font-variation-settings:"wdth" 100; font-size: 20px;}
+
+
+/* .ban_text { padding-bottom: 150px;} */
+
+
+
+/* banner  End*/
+
+
+
+
+
+
+/* About Us Starts*/
+
+.abt_img1 img{ position: relative; }
+
+.abt_img2 img{ margin-left: 30px; position: absolute; bottom: -20px; }
+
+.text {margin-left: 127px;}
+
+.about_main {padding-top: 123px;}
+
+.abt_img3 { position: relative; left: 217px; bottom:130px}
+
+.abt_img4 { position: absolute; left: 190px; bottom:110px;}
+
+.lowerMain {margin-top: 20px; display: flex; align-items: center;}
+
+li::marker {color: #1ED050;}
+
+.abt_us_text {font-family: "Salsa", serif; font-weight: 400; font-style: normal;}
+
+.abt_us_text_1 {font-family: "Salsa", cursive; font-weight: 400; font-style: normal;}
+
+
+.gFood1 .fFood2 {font-family: "Salsa", cursive; font-weight: 400; font-style: normal; font-size: 16px;}
+/* .lowerMain { padding-top: 550px; margin-right: 150px;} */
+
+
+/* About Us Ends*/
+
+
+
+
+
+
+/* Our services  */
+
+.ourServices {
+padding: 60px 0;text-align: center;background-color: #fff;background-color: #9ca91260;}
+.ourServices h6 {
+    font-size: 24px; margin-bottom: 20px;font-weight: bold; font-family: "Salsa", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+.ourServices p.subtitle { font-size: 48px; margin-bottom: 40px; font-family: "Salsa", serif;}
+.sBox { margin-bottom: 30px;position: relative;}
+.sBox img { width: 100%;height: auto;margin-bottom: 15px;}
+.sBox h4 { font-size: 24px; margin-bottom: 10px;}
+.sBox p { font-size: 19px; color: #777;}
+
+.xyz1 { position: absolute;background-color:#FBFDFE; top: 350px; width:200px; right:40px; height: 80px;}
+
+        .services-section { padding: 40px 0;}
+      
+      .services-section .service-box { margin-bottom: 30px; }
+      
+      .services-section img { width: 100%; height: auto; object-fit: cover;
+      }
+      
+    
+/* Our services Ends */
+
+
+
+/* Firm Benefits*/
+
+.About_Us {
+    margin-top: 50px;
+}
+.abt_img11 img{ position: relative; }
+
+.abt_img22 img{  position: absolute;  bottom: -30px;}
+
+.text {margin-left: 127px;}
+
+.about_main {padding-top: 122px;}
+
+.abt_img3 { position: relative; left: -50px; bottom:130px}
+
+.abt_img4 { position: absolute; left: -30px; bottom:110px;}
+
+.sss_Font {color: #777; }
+.lowerMain {margin-top: 20px; display: flex; align-items: center;}
+
+li::marker {color: #1ED050;}
+/* .lowerMain { padding-top: 550px; margin-right: 150px;} */
+.h2_fb { font-family: "Salsa", serif;font-weight: 400;}
+.fb { font-family: "Salsa", serif;font-weight: 400;}
+.abtUSBul {
+    font-size: 16px; font-weight: 900;  font-family: "Roboto", serif;
+    font-optical-sizing: auto; color: #636e72;}
+.greyy{ color: #636e72;}
+
+
+
+/* Firm Benefits Ends*/
+
+/* Recent Projects */
+.btn_RP {margin-top: -20px;}
+.subtitle {font-family: "Salsa", serif;font-weight: 400;font-style: normal; font-size: 48px;}
+.xyz {position: absolute;background-color:#FBFDFE; top: 280px; width:200px; right:40px; height: 80px;}
+
+
+
+/* Recent Projects Ends */
+
+
+
+/* our Clients  */
+
+.client-logo {
+    max-height: 100px;
+    margin: 20px;
+
+}
+.O_CText {
+    font-family: "Salsa", serif;
+        font-weight: 400;
+        font-style: normal;
+    
+}
+/* our Clients Ends */
+
+
+/* What They Are Talking About  */
+
+.testimonial { padding: 20px; margin: 20px; border: 2px solid white; color: #fff;
+}
+.testimonial img { border-radius: 50%; width: 50px; height: 50px;
+    
+}
+.testimonial h5 {
+    margin-top: 10px;
+}
+.bg {
+    background-image: url(../images/wtata/45625.png); background-size: cover; background-position: center;
+
+}
+.overlay {
+    
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 50px 0;
+}
+.s_t { color: white; text-align: center; margin-bottom: 50px; font-family: "Salsa", serif; font-weight: 400; font-style: normal;
+    
+}
+.ss_Font { font-family: "Salsa", serif; font-weight: 400; font-style: normal;
+}
+.btnnnnn { background-color: none; border: 1px solid white; height: 43px; width: 150px ; color: #FBFDFE;
+}
+.btnnnnn:hover {background: #ffffff;}
+/* .overlay {
+    background: rgba(0, 0, 0, 0.5); } */
+
+/* What They Are Talking About Ends */
+
+
+
+
+
+/* Get in Touch  */
+
+ .gTouch_Form{ max-width: 792px; max-height: 680px; position: absolute; left: 470px; top: 4560px;  };
+.leftText { position: relative; }
+.gTouch_Btn { width: 370px; height: 50px; background-color: #43A741;}
+.git_Font {font-family: "Salsa", serif; font-weight: 400; font-style: normal;}
+
+
+
+
+/* Get in Touch Ends */
+
+
+/* Footer  */
+
+.footer-section {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 0;
+}
+.footer-section h5 {
+    color: #f8b400;
+    margin-bottom: 20px;
+    
+}
+.fText {
+    font-family: "Saira Stencil One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 37px;
+}
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer-section a:hover {
+    color: #f8b400;
+}
+.social-icons a {
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+/* Footer Ends */
