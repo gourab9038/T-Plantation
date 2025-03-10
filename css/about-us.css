@@ -23,7 +23,7 @@
 
 
 
-.ban_about_img { background-image: url(../images/banner/2.png); height: 100vh; background-repeat: no-repeat; }
+.ban_about_img { background-image: url(../images/banner/2.png); height: 100vh; background-repeat: no-repeat; background-size: cover;}
 .abtText { padding-top: 200px;  font-family: "Salsa", serif;
     font-weight: 400;
     font-style: normal;
@@ -83,19 +83,20 @@ li::marker {color: #1ED050;}
     justify-content: space-around;
     background-color: #4CAF50;
     color: white;
-    /* padding: 40px 0; */
+
 }
 .counter {
     text-align: center;
 }
 .ef_Count {
     background-color: #0A7127;
-    padding-top: 10px;
+    /* padding-top: 10px; */
+    padding: 50px ;
     
 }
 .counter i {
     font-size: 32px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 .counter h2 {
     font-size: 40px;
@@ -175,11 +176,14 @@ li::marker {color: #1ED050;}
 
 /* Get in Touch  */
 
-.gTouch_Form{ max-width: 792px; max-height: 680px; position: absolute; left: 470px; top: 2710px;  };
-.leftText { position: relative;}
-.gTouch_Btn { width: 370px; height: 50px; background-color: #43A741;}
-.leftText {font-family: "Salsa", serif; font-weight: 400; font-style: normal;}
-.gTouch_FormText {font-family: "Salsa", serif; font-weight: 400; font-style: normal; }
+section.contact-section{ padding-top: 60px; }
+#contactForm input, #contactForm textarea{ border-radius:4px; width: 100%; padding: 10px; margin-bottom: 10px; outline: 0px; border: 1px solid #cdcdcd; }
+#contactForm button{ border-radius:4px; width: 100%; padding: 10px; background-color: #1ED050; color: #FBFDFE; border: 0; }
+.contact-form{background-color: #fff; padding: 30px; border-radius: 5px; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); margin-bottom: -80px; }
+.contact-info h2{ font-family: "Salsa", serif; font-weight: 400; font-style: normal; }
+.contact-form h2{ padding-bottom: 20px; }
+.contact-form h2{ font-family: "Salsa", serif; font-weight: 400; font-style: normal; } 
+.iconsss{ color: #0f8731; padding-right:7px;}
 
 /* Get in Touch Ends */
 

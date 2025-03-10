@@ -14,21 +14,27 @@
  
 
 /* banner  */
+
 .ban_text { padding-bottom: 150px;} .carousel-inner {height: 90vh;} .b_Agri {font-size: 76px;}
 .b_Agri {font-family: "Salsa", serif; font-weight: 400; font-style: normal;}
 .gTouch_Main h3{font-family: "Salsa", serif; font-weight: 400; font-style: normal;}
 .gTouchBody{font-size: 18px; font-weight: 400;  font-family: "Roboto", serif; font-optical-sizing: auto;}
 .sSomething {font-family: "Salsa", serif; font-weight: 400; font-style: normal;}
+.carousel-item {background-size: cover; }
 /* banner  End*/
 
 
 
 /* Get in Touch  */
 
-.gTouch_Form{ max-width: 792px; max-height: 680px; position: absolute; left: 470px; bottom: 300px;  };
-.leftText { position: relative;}
-.gTouch_Btn { width: 370px; height: 50px; background-color: #43A741;}
-
+section.contact-section{ padding-top: 50px; }
+#contactForm input, #contactForm textarea{ border-radius:4px; width: 100%; padding: 10px; margin-bottom: 10px; outline: 0px; border: 1px solid #cdcdcd; }
+#contactForm button{ border-radius:4px; width: 100%; padding: 10px; background-color: #1ED050; color: #FBFDFE; border: 0; }
+.contact-form{background-color: #fff; padding: 30px; border-radius: 5px; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); margin-bottom: -80px; }
+.contact-info h2{ font-family: "Salsa", serif; font-weight: 400; font-style: normal; }
+.contact-form h2{ padding-bottom: 20px; }
+.contact-form h2{ font-family: "Salsa", serif; font-weight: 400; font-style: normal; } 
+.iconsss{ color: #0f8731; padding-right:7px;}
 /* Get in Touch Ends */
 
 

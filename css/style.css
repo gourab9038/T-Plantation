@@ -297,21 +297,17 @@ li::marker {color: #1ED050;}
 
 /* What They Are Talking About Ends */
 
+/* Get in touch starts */
 
-
-
-
-/* Get in Touch  */
-
- .gTouch_Form{ max-width: 792px; max-height: 680px; position: absolute; left: 470px; top: 4560px;  };
-.leftText { position: relative; }
-.gTouch_Btn { width: 370px; height: 50px; background-color: #43A741;}
-.git_Font {font-family: "Salsa", serif; font-weight: 400; font-style: normal;}
-
-
-
-
-/* Get in Touch Ends */
+section.contact-section{ padding-top: 60px; }
+#contactForm input, #contactForm textarea{ border-radius:4px; width: 100%; padding: 10px; margin-bottom: 10px; outline: 0px; border: 1px solid #cdcdcd; }
+#contactForm button{ border-radius:4px; width: 100%; padding: 10px; background-color: #1ED050; color: #FBFDFE; border: 0; }
+.contact-form{background-color: #fff; padding: 30px; border-radius: 5px; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); margin-bottom: -80px; }
+.contact-info h2{ font-family: "Salsa", serif; font-weight: 400; font-style: normal; }
+.contact-form h2{ padding-bottom: 20px; }
+.contact-form h2{ font-family: "Salsa", serif; font-weight: 400; font-style: normal; } 
+.iconsss{ color: #0f8731; padding-right:7px;}
+/* Get in touch ends */
 
 
 /* Footer  */
@@ -319,7 +315,7 @@ li::marker {color: #1ED050;}
 .footer-section {
     background-color: #222;
     color: #fff;
-    padding: 40px 0;
+    padding-top: 80px;
 }
 .footer-section h5 {
     color: #f8b400;
@@ -345,3 +341,5 @@ li::marker {color: #1ED050;}
 }
 
 /* Footer Ends */
+
+

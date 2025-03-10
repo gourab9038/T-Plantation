@@ -358,58 +358,61 @@
 
   <!-- Get in touch  -->
 
-  <div class="gTouch_Main">
-    <div class="container coll-lg-6 py-5">
-      <div>
-        <h3 class="leftText">Get in touch</h3>
-        <p class="py-3">
-          Suspendisse vehicula arcu id lacus pellentesque, nec bibendum enim
-          <br>facilisis. Curabitur quis lobortis lectus. Aliquam et mauris
-          euismod,<br>pretium lectus at, feugiat magna. Mauris quis
-          ultricies arcu. Donec et<br>
-          volutpat nunc. Nullam nec ligula justo
-        </p>
-        <p>
-          <i class="fa-solid fa-message mx-2 text-success"></i>farmkey@gmail.com
-        </p>
-        <p>
-          <i class="fa-solid fa-phone text-success mx-1"></i>+3356 8760 7768
-        </p>
-        <p>
-          <i class="fa-solid fa-location-dot text-success mx-2"></i>32, Avenue
-          ve NewYork
-        </p>
-        <p class="px-4">324456 NewYork</p>
-        <!-- Test  -->
-        <div class="container mt-5 gTouch_Form">
-          <div class="row justify-content-center">
-            <div class="col-md-6 shadow p-3 bg-white ">
-              <p class="text-start gTouch_FormText fs-3">Say something</p>
-              <form>
-                <div class="form-group px-2">
-                  <!-- <label for="name">Your name</label> -->
-                  <input type="text" class="form-control rounded-0 py-3 my-3" id="name" placeholder="Your name" />
-                </div>
-                <div class="form-group px-2">
-                  <!-- <label for="email">Your Email</label> -->
-                  <input type="email" class="form-control rounded-0 py-3 my-3" id="email" placeholder="Your Email" />
-                </div>
-                <div class="form-group px-2">
-                  <!-- <label for="message">Type Your message here.....</label> -->
-                  <textarea class="form-control rounded-0 py-3 my-3" id="message" rows="4"
-                    placeholder="Type Your message here....."></textarea>
-                </div>
-                <button type="submit" class="btn btn-success btn-block rounded-0 text-center gTouch_Btn">
-                  Discover more
-                </button>
-              </form>
-            </div>
+  <section class="contact-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="contact-info">
+              <h2>Get in touch</h2>
+              <p>Suspendisse vehicula arcu id lacus pellentesque, nec bibendum enim facilisis. Curabitur quis lobortis lectus. Aliquam et mauris euismod, pretium lectus at, feugiat magna. Mauris quis ultricies arcu. Donec et volutpat nunc. Nullam nec ligula justo</p>
+              
+              <div class="info-item">
+                  <div class="icon email-icon"></div>
+                  <span><i class="fa-solid fa-message iconsss"></i>farmkey@gmail.com</span>
+              </div>
+              
+              <div class="info-item">
+                  <div class="icon phone-icon"></div>
+                  <span><i class="fa-solid fa-phone iconsss"></i>+3356 8760 7768</span>
+              </div>
+              
+              <div class="info-item">
+                  <div class="icon location-icon"></div>
+                  <div class="address">
+                      <span><i class="fa-solid fa-location-dot iconsss"></i>32, Avenue ve NewYork</span> <br>
+                      <span class="px-3">324456 NewYork</span>
+                  </div>
+              </div>
           </div>
         </div>
-        <!-- Test  -->
+        <div class="col-lg-6">
+          <div class="contact-form-container">
+              <div class="contact-form">
+                  <h2>Say something</h2>
+                  <form id="contactForm">
+                      <div class="form-group">
+                          <input type="text" id="name" placeholder="Your name" required>
+                          <span class="error-message" id="nameError"></span>
+                      </div>
+                      
+                      <div class="form-group">
+                          <input type="email" id="email" placeholder="Your Email" required>
+                          <span class="error-message" id="emailError"></span>
+                      </div>
+                      
+                      <div class="form-group">
+                          <textarea id="message" placeholder="Type Your message here...." required></textarea>
+                          <span class="error-message" id="messageError"></span>
+                      </div>
+                      
+                      <button type="submit" class="submit-btn">Discover more</button>
+                  </form>
+              </div>
+          </div>
+        </div>  
       </div>
-    </div>
-  </div>
+    </div>  
+  </section>
 
   <!-- Get in touch Ends -->
 
@@ -420,7 +423,7 @@
         <div class="col-md-4">
           <div class="d-flex"> <!--  Edit  -->
             <img src="./images/footer/plant1.png" alt="Footer logo">
-            <h5 class="fText text-light pt-4 ps-4">FARMEY</h5>
+            <h5 class="fText text-light  ps-4">FARMEY</h5>
           </div> <!--  Edit  -->
           <p>We are an efficient, competitive, innovative and entrepreneurial agricultural sector, which serves
             providing the population with a source of food generating opportunities for the Farmers.</p>
@@ -460,6 +463,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="./JS/About us.js"></script>
+
 </body>
 
 </html>
