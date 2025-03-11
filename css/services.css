@@ -42,7 +42,7 @@
 /* Our services  */
 
         .w_w_o{ color: #197733; margin: 20px; font-family: "Salsa", serif;font-weight: 400;font-style: normal;}
-         a { text-decoration: none; color: #222; }
+         a { text-decoration: none; color: #222;}
 		.img_content_box{ box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08); position: relative; margin-bottom: 50px; }
 		.img_content_box .image_wrapper img{ width: 100%; }
 		.img_content_box .icon_content{ position: absolute; bottom: -30px; width: 80%; background-color: #fff; left: 50%; transform: translateX(-50%); box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08); }
@@ -51,6 +51,7 @@
 		.services > .container{ position: relative; }
 		.services > .container:before{ position: absolute; content:''; left: 0; top: 0; }
         .lft-img {height: 130vh;}
+        .wwo_Text:hover{box-shadow: 0 0 20px rgba(67, 134, 1, 0.9) !important;} 
        
 
 

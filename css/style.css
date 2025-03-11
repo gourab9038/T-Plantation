@@ -190,6 +190,8 @@ padding: 60px 0;text-align: center;background-color: #fff;background-color: #9ca
 .sBox img { width: 100%;height: auto;margin-bottom: 15px;}
 .sBox h4 { font-size: 24px; margin-bottom: 10px;}
 .sBox p { font-size: 19px; color: #777;}
+.xyz1:hover { box-shadow: 0 0 20px rgba(67, 134, 1, 0.9) !important; } 
+.xyz:hover { box-shadow: 0 0 20px rgba(67, 134, 1, 0.9) !important; } 
 
 .xyz1 { position: absolute;background-color:#FBFDFE; top: 350px; width:200px; right:40px; height: 80px;}
 
