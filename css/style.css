@@ -192,15 +192,10 @@ padding: 60px 0;text-align: center;background-color: #fff;background-color: #9ca
 .sBox p { font-size: 19px; color: #777;}
 .xyz1:hover { box-shadow: 0 0 20px rgba(67, 134, 1, 0.9) !important; } 
 .xyz:hover { box-shadow: 0 0 20px rgba(67, 134, 1, 0.9) !important; } 
-
-.xyz1 { position: absolute;background-color:#FBFDFE; top: 350px; width:200px; right:40px; height: 80px;}
-
-        .services-section { padding: 40px 0;}
-      
-      .services-section .service-box { margin-bottom: 30px; }
-      
-      .services-section img { width: 100%; height: auto; object-fit: cover;
-      }
+.xyz1 { position: absolute;background-color:#FBFDFE; top: 410px; width:200px; right:65px; height: 80px;}
+.services-section { padding: 40px 0;}
+.services-section .service-box { margin-bottom: 30px; }
+.services-section img { width: 100%; height: auto; object-fit: cover;}
       
     
 /* Our services Ends */
@@ -243,7 +238,7 @@ li::marker {color: #1ED050;}
 /* Recent Projects */
 .btn_RP {margin-top: -20px;}
 .subtitle {font-family: "Salsa", serif;font-weight: 400;font-style: normal; font-size: 48px;}
-.xyz {position: absolute;background-color:#FBFDFE; top: 280px; width:200px; right:40px; height: 80px;}
+.xyz {position: absolute;background-color:#FBFDFE; top: 320px; width:200px; right:65px; height: 80px;}
 
 
 
